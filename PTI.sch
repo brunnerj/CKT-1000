@@ -13094,11 +13094,16 @@ section 10.2.1.2.3</text>
 <pinref part="J1" gate="G$1" pin="5"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 <label x="190.5" y="185.42" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<wire x1="218.44" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="190.5" x2="210.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="190.5" x2="172.72" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="185.42" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
 <junction x="195.58" y="190.5"/>
+<pinref part="J1" gate="G$1" pin="15"/>
+<wire x1="218.44" y1="177.8" x2="210.82" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="177.8" x2="210.82" y2="190.5" width="0.1524" layer="91"/>
+<junction x="210.82" y="190.5"/>
 </segment>
 </net>
 <net name="N$3" class="0">
