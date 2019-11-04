@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -12133,7 +12133,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </libraries>
 <attributes>
 <attribute name="DWG_NUMBER" value="CKT-1000"/>
-<attribute name="REV" value="-"/>
+<attribute name="REV" value="C"/>
 <attribute name="TITLE" value="PIMTECTOR INTERFACE BOARD"/>
 </attributes>
 <variantdefs>
@@ -12509,9 +12509,9 @@ section 10.2.1.2.3</text>
 <instance part="MH2" gate="G$1" x="248.92" y="53.34" smashed="yes"/>
 <instance part="MH3" gate="G$1" x="243.84" y="48.26" smashed="yes"/>
 <instance part="MH4" gate="G$1" x="248.92" y="48.26" smashed="yes"/>
-<instance part="J3" gate="G$1" x="152.4" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="162.56" y="72.136" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="162.56" y="53.34" size="1.27" layer="96" rot="MR0"/>
+<instance part="J3" gate="G$1" x="157.48" y="63.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="167.64" y="72.136" size="1.27" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="167.64" y="53.34" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND24" gate="1" x="149.86" y="109.22" smashed="yes">
 <attribute name="VALUE" x="147.32" y="106.68" size="1.778" layer="96"/>
@@ -12689,7 +12689,7 @@ section 10.2.1.2.3</text>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="GND"/>
-<wire x1="142.24" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="139.7" y1="58.42" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 </segment>
@@ -12974,9 +12974,9 @@ section 10.2.1.2.3</text>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="91.44" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <junction x="106.68" y="68.58"/>
-<wire x1="142.24" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
 <junction x="127" y="68.58"/>
-<label x="139.7" y="71.12" size="1.778" layer="95"/>
+<label x="144.78" y="71.12" size="1.778" layer="95"/>
 <pinref part="J3" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
@@ -13122,6 +13122,22 @@ section 10.2.1.2.3</text>
 <wire x1="205.74" y1="160.02" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="167.64" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RX_EN" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="ID"/>
+<wire x1="147.32" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="60.96" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+<label x="147.32" y="83.82" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="33"/>
+<wire x1="218.44" y1="154.94" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="154.94" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<label x="190.5" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
